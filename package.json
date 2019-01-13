@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-verit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-	"test": "eslint \"**/*.js\"",
-	"prepublish": "npm test"
+    "test": "eslint \"**/*.js\"",
+    "prepublish": "npm test"
   },
   "keywords": [
     "eslint",

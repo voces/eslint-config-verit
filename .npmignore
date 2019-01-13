@@ -1,3 +1,4 @@
-.eslintrc.json
+.eslintrc.js
+.eslintignore
 .gitattributes
 .travis.yml
