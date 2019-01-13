@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "eslint \"**/*.js\""
+	"test": "eslint \"**/*.js\"",
+	"prepublish": "npm test"
   },
   "keywords": [
     "eslint",
