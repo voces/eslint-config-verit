@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-verit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,9 @@
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.12.0",
+    "eslint-config-mdcs": "^4.2.3"
+  },
+  "peerDependencies": {
     "eslint-config-mdcs": "^4.2.3"
   }
 }
