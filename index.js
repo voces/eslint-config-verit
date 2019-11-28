@@ -1,13 +1,12 @@
 
 module.exports = {
+	env: { es2020: true },
 	extends: [ "eslint:recommended", "mdcs" ],
-	parserOptions: { ecmaVersion: 2018 },
+	parserOptions: { ecmaVersion: 2020 },
 	rules: {
 		"arrow-body-style": [ "error", "as-needed" ],
 		"arrow-parens": [ "error", "as-needed" ],
-		"comma-dangle": [ "error", "never" ],
-		curly: [ "error", "multi" ],
-		eqeqeq: [ "error" ],
+		"comma-dangle": [ "error", "always-multiline" ],
 		"no-console": 0,
 		"no-constant-condition": 0,
 		"no-duplicate-imports": [ "error" ],
@@ -20,8 +19,10 @@ module.exports = {
 		"prefer-arrow-callback": [ "error" ],
 		"prefer-const": [ "error" ],
 		"quote-props": [ "error", "as-needed" ],
-		quotes: [ "error", "double" ],
 		"spaced-comment": [ "error", "always", { exceptions: [ "/" ] } ],
-		strict: [ "error" ]
-	}
+		curly: [ "error", "multi" ],
+		eqeqeq: [ "error" ],
+		quotes: [ "error", "double" ],
+		strict: [ "error" ],
+	},
 };
