@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-verit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,11 +15,19 @@
   "author": "verit",
   "license": "ISC",
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.7.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
     "eslint-config-mdcs": "^4.2.3"
   },
   "peerDependencies": {
     "eslint-config-mdcs": "^4.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voces/eslint-config-verit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/voces/eslint-config-verit/issues"
+  },
+  "homepage": "https://github.com/voces/eslint-config-verit#readme",
 }
