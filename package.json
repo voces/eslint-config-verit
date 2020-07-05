@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-verit",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,22 +19,14 @@
   "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.5.0",
-    "@typescript-eslint/parser": "^3.5.0",
-    "babel-eslint": "^10.1.0",
     "eslint": "^7.4.0",
-    "eslint-config-mdcs": "^5.0.0",
-    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5",
     "typescript": "^3.9.6"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.5.0",
-    "@typescript-eslint/parser": "^3.5.0",
-    "babel-eslint": "^10.1.0",
     "eslint": "^7.4.0",
-    "eslint-config-mdcs": "^5.0.0",
-    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5",
     "typescript": "^3.9.6"
@@ -46,5 +38,11 @@
   "bugs": {
     "url": "https://github.com/voces/eslint-config-verit/issues"
   },
-  "homepage": "https://github.com/voces/eslint-config-verit#readme"
+  "homepage": "https://github.com/voces/eslint-config-verit#readme",
+  "dependencies": {
+    "@typescript-eslint/parser": "^3.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-mdcs": "^5.0.0",
+    "eslint-config-prettier": "^6.11.0"
+  }
 }
