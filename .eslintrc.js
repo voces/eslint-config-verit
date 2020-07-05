@@ -1,5 +1,4 @@
-
 module.exports = {
 	parser: "babel-eslint",
-	...require( "./index.js" ),
+	...require("./index.js"),
 };
