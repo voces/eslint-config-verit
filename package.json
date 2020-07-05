@@ -1,12 +1,15 @@
 {
   "name": "eslint-config-verit",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "eslint \"**/*.js\"",
     "prepublish": "npm test"
   },
+  "files": [
+    ".prettierrc.js"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -26,7 +29,15 @@
     "typescript": "^3.9.6"
   },
   "peerDependencies": {
-    "eslint-config-mdcs": "^5.0.0"
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.4.0",
+    "eslint-config-mdcs": "^5.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.6"
   },
   "repository": {
     "type": "git",
