@@ -1,7 +1,7 @@
 const sharedRules = {
 	"arrow-body-style": ["error", "as-needed"],
 	"comma-dangle": ["error", "always-multiline"],
-	"no-console": "warn",
+	"no-console": ["warn", { allow: ["warn", "error"] }],
 	"no-constant-condition": "warn",
 	"no-dupe-class-members": "off",
 	"no-duplicate-imports": ["error"],
