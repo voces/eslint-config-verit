@@ -1,6 +1,8 @@
 const sharedRules = {
 	"arrow-body-style": ["error", "as-needed"],
 	"comma-dangle": ["error", "always-multiline"],
+	"eslint-comments/disable-enable-pair": ["error", { allowWholeFile: true }],
+	"eslint-comments/no-unused-disable": "error",
 	"no-console": ["warn", { allow: ["warn", "error"] }],
 	"no-constant-condition": "warn",
 	"no-dupe-class-members": "off",
@@ -48,7 +50,12 @@ const typeScript = {
 module.exports = {
 	root: true,
 	env: { es2020: true },
-	extends: ["eslint:recommended", "mdcs", "plugin:prettier/recommended"],
+	extends: [
+		"eslint:recommended",
+		"mdcs",
+		"plugin:eslint-comments/recommended",
+		"plugin:prettier/recommended",
+	],
 	rules: {
 		...sharedRules,
 		"no-unused-vars": ["error", { ignoreRestSiblings: true }],
