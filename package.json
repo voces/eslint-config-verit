@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-verit",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "eslint \"**/*.[j|t]s\"",
-    "prepublish": "npm test"
+    "prepublishOnly": "npm test"
   },
   "files": [
     ".prettierrc.js"
@@ -43,8 +43,9 @@
     "@typescript-eslint/parser": "^4.0.1",
     "babel-eslint": "^10.1.0",
     "eslint-config-mdcs": "^5.0.0",
-    "eslint-config-preact": "^1.1.1",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-eslint-comments": "^3.2.0"
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0"
   }
 }

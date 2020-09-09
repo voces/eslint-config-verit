@@ -30,9 +30,9 @@ const typeScript = {
 	files: ["**/*.ts", "**/*.tsx"],
 	parser: "@typescript-eslint/parser",
 	parserOptions: { ecmaVersion: 2020 },
-	plugins: ["@typescript-eslint"],
+	plugins: ["react", "react-hooks", "@typescript-eslint"],
 	extends: [
-		"preact",
+		"plugin:react/recommended",
 		"mdcs",
 		"plugin:@typescript-eslint/eslint-recommended",
 		"plugin:@typescript-eslint/recommended",
@@ -53,15 +53,22 @@ module.exports = {
 	root: true,
 	env: { es2020: true },
 	extends: [
-		"preact",
 		"eslint:recommended",
+		"plugin:react/recommended",
 		"mdcs",
 		"plugin:eslint-comments/recommended",
 		"plugin:prettier/recommended",
 	],
+	plugins: ["react", "react-hooks"],
 	rules: {
 		...sharedRules,
 		"no-unused-vars": ["error", { ignoreRestSiblings: true }],
+	},
+	settings: {
+		react: {
+			pragma: "h",
+			version: "16.2",
+		},
 	},
 	parserOptions: { ecmaFeatures: { jsx: true } },
 	overrides: [typeScript],
