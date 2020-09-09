@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-verit",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -43,6 +43,7 @@
     "@typescript-eslint/parser": "^4.0.1",
     "babel-eslint": "^10.1.0",
     "eslint-config-mdcs": "^5.0.0",
+    "eslint-config-preact": "^1.1.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-eslint-comments": "^3.2.0"
   }

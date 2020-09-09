@@ -32,6 +32,8 @@ const typeScript = {
 	parserOptions: { ecmaVersion: 2020 },
 	plugins: ["@typescript-eslint"],
 	extends: [
+		"preact",
+		"mdcs",
 		"plugin:@typescript-eslint/eslint-recommended",
 		"plugin:@typescript-eslint/recommended",
 		"prettier/@typescript-eslint",
@@ -51,6 +53,7 @@ module.exports = {
 	root: true,
 	env: { es2020: true },
 	extends: [
+		"preact",
 		"eslint:recommended",
 		"mdcs",
 		"plugin:eslint-comments/recommended",
