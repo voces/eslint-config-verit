@@ -27,7 +27,7 @@ const sharedRules = {
 };
 
 const typeScript = {
-	files: ["**/*.ts"],
+	files: ["**/*.ts", "**/*.tsx"],
 	parser: "@typescript-eslint/parser",
 	parserOptions: { ecmaVersion: 2020 },
 	plugins: ["@typescript-eslint"],
@@ -60,5 +60,6 @@ module.exports = {
 		...sharedRules,
 		"no-unused-vars": ["error", { ignoreRestSiblings: true }],
 	},
+	parserOptions: { ecmaFeatures: { jsx: true } },
 	overrides: [typeScript],
 };
