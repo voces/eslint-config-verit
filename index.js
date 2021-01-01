@@ -17,7 +17,8 @@ const sharedRules = {
 	"quote-props": ["error", "as-needed"],
 	"react/no-deprecated": "off",
 	"react/self-closing-comp": "error",
-	"simple-import-sort/sort": "error",
+	"simple-import-sort/imports": "error",
+	"simple-import-sort/exports": "error",
 	"spaced-comment": ["error", "always", { exceptions: ["/"] }],
 	curly: ["error", "multi"],
 	eqeqeq: "error",
@@ -72,12 +73,6 @@ module.exports = {
 	rules: {
 		...sharedRules,
 		"no-unused-vars": ["error", { ignoreRestSiblings: true }],
-	},
-	settings: {
-		react: {
-			pragma: "h",
-			version: "16.2",
-		},
 	},
 	parserOptions: { ecmaFeatures: { jsx: true } },
 	overrides: [typeScript],

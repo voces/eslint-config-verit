@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-verit",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "keywords": [
     "eslint",
     "eslintconfig",
-    "webcraft"
+    "webcraft",
+    "verit"
   ],
   "author": "verit",
   "license": "ISC",
@@ -21,6 +22,7 @@
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "eslint": "^7.13.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
     "prettier": "^2.1.2",
     "typescript": "^4.0.5"
   },
@@ -28,6 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "eslint": "^7.8.1",
     "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
     "prettier": "^2.1.1",
     "typescript": "^4.0.2"
   },
@@ -46,7 +49,6 @@
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-react": "^7.21.5",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-simple-import-sort": "^5.0.3"
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
