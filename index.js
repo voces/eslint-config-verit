@@ -83,6 +83,7 @@ module.exports = {
 		...sharedRules,
 		"no-unused-vars": ["error", { ignoreRestSiblings: true }],
 	},
-	parserOptions: { ecmaFeatures: { jsx: true } },
+	parser: "@babel/eslint-parser",
+	parserOptions: { ecmaFeatures: { jsx: true }, requireConfigFile: false },
 	overrides: [typeScript],
 };
